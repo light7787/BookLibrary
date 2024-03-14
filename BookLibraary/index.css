@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #005142;
+    overflow-x: hidden;
+
+}
+.img{
+    cursor: pointer;
+   border-radius: 50%;
+ 
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 30px;
+    color: aliceblue;
+}
+form{
+    background-color: #FFE4C4;
+    height: 400px;
+    width:300px;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-radius: 20px;
+    right: 38%;
+    margin-top: 30px;
+    position: absolute;
+    transition: opacity 0.3s ease;
+   
+}
+
+form>p{
+    margin-top:10px;
+    font-weight: 700;
+}
+form>input{
+    width:80%;
+    height: 30px;
+    border:none;
+    border-radius: 10px;
+
+}
+form>button{
+    display: block;
+    margin-top: 10px;
+    margin-left: 80px;
+    height: 30px;
+    width: 50px; 
+     
+}
+#checkbox{
+    margin-left: 90px;
+    width:20px;
+    height: 20px;
+    margin-top: 10px;
+    
+    
+}
+.read{
+   margin-left: 70px;
+}
+.cross{
+    width:20px;
+    height: 20px;
+    display: block;
+   margin-left: 230px;
+   cursor: pointer;
+   border-radius: 10px;
+    
+}
+#container{
+    /* display: flex; */
+    /* column-gap: 10px; */
+    margin: auto;
+    width:100%;
+    height: 100vh;
+    padding-top: 100px;
+
+}
+.card{
+    float: left;
+    margin: 2%;
+    height:400px;
+    width:250px;
+    background-color: #FFE4C4;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.displayimg{
+   height: 70%;
+  width:90%;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.title2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.author2{
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.page2{
+    text-align: center;
+    margin-top: 5px;
+}
+.button2{
+   display: block;
+   
+   height: 20px;
+   margin-top: 10px;
+   cursor: pointer;
+
+  
+   
+}
+.deleteButton{
+    display: block;
+    margin-left:190px;
+    margin-top: -20px;
+    background-color: rgb(98, 109, 136);
+    cursor: pointer;
+
+}
